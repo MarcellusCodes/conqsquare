@@ -1,0 +1,29 @@
+{
+  "name": "conqsquare",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@react-query-firebase/auth": "^0.3.4",
+    "@react-query-firebase/firestore": "^0.4.2",
+    "firebase": "^9.6.5",
+    "formik": "^2.2.9",
+    "framer-motion": "^6.2.3",
+    "next": "12.0.10",
+    "react": "17.0.2",
+    "react-dom": "17.0.2",
+    "react-query": "^3.34.12",
+    "zustand": "^3.6.9"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.2",
+    "eslint": "8.8.0",
+    "eslint-config-next": "12.0.10",
+    "postcss": "^8.4.6",
+    "tailwindcss": "^3.0.18"
+  }
+}
